@@ -8,7 +8,7 @@
 
 2) git push -u origin "name_branch"
 
-3) git checkout bug_reports
+3) git checkout bug_reports 
    > bug.txt
 
 4) git add .
