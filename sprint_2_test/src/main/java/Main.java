@@ -1,7 +1,7 @@
 import factory.SpaceShipFactory;
 import ships.Dragon;
 import ships.Soyuz;
-import ships.SpaceShip;
+import ships.SpaceShip; //.
 
 import static constants.Constants.GENERATION_1;
 import static constants.Constants.GENERATION_2;
