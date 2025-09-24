@@ -1,5 +1,6 @@
 import factory.SpaceShipFactory;
 import ships.Dragon;
+import ships.Proton;
 import ships.Soyuz;
 import ships.SpaceShip; //.
 
@@ -12,7 +13,8 @@ public class Main {
         SpaceShip[] ships = new SpaceShip[] {
                 new Soyuz(3, 7, GENERATION_1),
                 new Soyuz(1, 8, GENERATION_2),
-                new Dragon(2, 14)
+                new Dragon(2, 14),
+                new Proton(5, 4)
         };
 
         SpaceShipFactory factory = new SpaceShipFactory(ships);
