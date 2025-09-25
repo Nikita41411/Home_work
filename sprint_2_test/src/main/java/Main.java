@@ -13,7 +13,6 @@ public class Main {
         SpaceShip[] ships = new SpaceShip[] {
                 new Soyuz(3, 7, GENERATION_1),
                 new Soyuz(1, 8, GENERATION_2),
-                new Soyuz(3, 3, GENERATION_3),
                 new Dragon(2, 14),
                 new Proton(5, 4)
         };
