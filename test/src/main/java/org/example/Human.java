@@ -19,7 +19,7 @@ public class Human {
     }
 
     public void setAge(int age) {
-        if (age<0){
+        if (age<=0){
             System.out.println("Возраст не может быть отрицательным или 0");
             return;
         } else {
@@ -32,7 +32,7 @@ public class Human {
     }
 
     void speak(){
-        if (name == null || age == 0){
+        if (name == null || age <= 0){
             System.out.println("Ошибка");
         } else {
         System.out.println("Тебя зовут "+name+", тебе "+age+" лет");
