@@ -26,4 +26,5 @@ public class Main {
         System.out.println("Массив: " + Arrays.toString(ships));
         System.out.println("Список: " + shipsList);
     }
+
 }
