@@ -14,7 +14,7 @@ public class Calculator {
 
     public double divide(double a, double b) {
         if (b == 0) {
-            throw new ArithmeticException("Division by zero is not allowed");
+            throw new ArithmeticException("Деление на ноль не допускается");
         }
         return a / b;
     }
@@ -25,7 +25,7 @@ public class Calculator {
 
     public double squareRoot(double a) {
         if (a < 0) {
-            throw new IllegalArgumentException("Cannot calculate square root of negative number");
+            throw new IllegalArgumentException("Невозможно вычислить квадратный корень отрицательного числа");
         }
         return Math.sqrt(a);
     }

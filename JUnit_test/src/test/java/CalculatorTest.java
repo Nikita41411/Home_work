@@ -105,7 +105,7 @@ class CalculatorTest {
         });
 
         System.out.println("Поймано исключение: " + exception.getMessage());
-        assertEquals("Division by zero is not allowed", exception.getMessage());
+        assertEquals("Деление на ноль не допускается", exception.getMessage());
 
         System.out.println("✓ Тест деления на ноль пройден успешно");
     }
@@ -159,7 +159,7 @@ class CalculatorTest {
         });
 
         System.out.println("Поймано исключение: " + exception.getMessage());
-        assertEquals("Cannot calculate square root of negative number", exception.getMessage());
+        assertEquals("Невозможно вычислить квадратный корень отрицательного числа", exception.getMessage());
 
         System.out.println("✓ Тест с отрицательным числом пройден успешно");
     }
